@@ -1,9 +1,11 @@
-import NotifyButton from "./components/notifybutton"
+import Header from './components/header'
+
+import NotifyButton from './components/notifybutton'
 function App() {
   return (
     <div>
-      <h1>Olá mundo</h1>
-      <NotifyButton />
+      <Header/>
+      <NotifyButton/>
     </div>
   )
 
