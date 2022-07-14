@@ -17,7 +17,7 @@ public class SmsService {
 	private String twilioSid;
 
 	@Value("${twilio.key}")
-	private String twilioKey;
+	private String twilioKey; 
 
 	@Value("${twilio.phone.from}")
 	private String twilioPhoneFrom;
