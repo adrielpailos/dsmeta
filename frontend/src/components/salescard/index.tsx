@@ -3,10 +3,9 @@ import { useEffect, useState } from "react";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import { BASE_URL } from "../../utils/request";
-import { Sale } from "../../models/sale"
-
-import NotifyButton from '../notifybutton'
-import './style.css'
+import { Sale } from "../../models/sale";
+import NotifyButton from '../notifybutton';
+import './style.css';
 function SalesCard() {
 
 const min = new Date(new Date().setDate(new Date().getDate() - 365));
@@ -74,7 +73,7 @@ useEffect(() => {
                   <td>
                     <div className="dsmeta-red-btn-container">
                       <div className="dsmeta-red-btn">
-                        <NotifyButton />
+                        <NotifyButton saleId={sale.id}/>
                       </div>
                     </div>
                   </td>
