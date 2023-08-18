@@ -6,7 +6,7 @@ function Header() {
       <div className="dsmeta-logo-container">
         <img src={Logo} alt="DSmeta" />
           <h1>DSMeta</h1>
-          <p>Densenvolvido por <a href="https://www.instagram.com/devsuperior.ig">@devsuperior.ig</a></p>
+          <p>Densenvolvido por <a href="https://www.google.com">JohnDoe</a></p>
       </div>
     </header>
   )
